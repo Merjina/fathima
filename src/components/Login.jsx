@@ -29,7 +29,9 @@ const Login = () => {
     if (!validateForm()) return; // Ensure form validation
 
     try {
-      const response = await axios.post("http://localhost:8081/api/auth/login", {
+      const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+
+      const response = await axios.post(`${API_BASE_URL}/auth/login`, {
         identifier,
         password,
       });
