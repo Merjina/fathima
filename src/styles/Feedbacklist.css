@@ -1,0 +1,81 @@
+/* Container for the feedback list */
+.feedback-list {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title for the feedback list */
+.feedback-list h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Table container for feedbacks */
+table {
+  width: 100%;
+  max-width: 1200px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Table header styling */
+thead {
+  background-color: #0077cc;
+  color: white;
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+th:nth-child(even) {
+  text-align: center;
+}
+
+/* Table body styling */
+tbody {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Table row styling */
+tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+tbody tr:hover {
+  background-color: #e6f7ff;
+}
+
+/* Table data cell styling */
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+td:nth-child(even) {
+  text-align: center;
+}
+
+/* Table responsive on mobile devices */
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}

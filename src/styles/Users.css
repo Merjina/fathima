@@ -1,0 +1,103 @@
+/* Container Styling */
+.user-list-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Back Button Styling */
+button.mb-3 {
+  background-color: #0077cc;
+  color: white;
+}
+
+button.mb-3:hover {
+  background-color: #005fa3;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #555;
+}
+
+td {
+  background-color: #fafafa;
+}
+
+/* Table Row Hover Effect */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Delete Button Styling */
+button.danger-btn {
+  background-color: #dc3545;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button.danger-btn:hover {
+  background-color: #bb2d3b;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .user-list-container {
+    padding: 15px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  button {
+    padding: 8px 12px;
+  }
+}

@@ -1,0 +1,74 @@
+/* Notification.css */
+
+.notification-container {
+    padding: 6rem 2rem 2rem; /* Top padding to avoid overlap with navbar */
+    background: #f7f9fb;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .notification-container h2 {
+    text-align: center;
+    color: #2c3e50; /* Darker shade for visibility */
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .loading-message {
+    text-align: center;
+    color: #888;
+    font-size: 1.2rem;
+  }
+  
+  .notification-details {
+    background: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-left: 5px solid #3498db;
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    margin: 1rem auto;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .notification-details:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .notification-details p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .notification-details p strong {
+    color: #2c3e50;
+    margin-right: 0.3rem;
+  }
+  
+  .amount {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  .status {
+    font-weight: 600;
+    color: #e67e22;
+  }
+  
+  .success-message {
+    background-color: #e8f8f5;
+    border: 1px solid #2ecc71;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-bottom: 0.8rem;
+    color: #2e7d32;
+    font-weight: 600;
+    text-align: center;
+  }
+  

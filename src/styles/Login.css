@@ -1,0 +1,90 @@
+/* Prevent scrolling */
+html, body {
+ 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif; /* Updated Font */
+  }
+  
+  /* Login Container */
+  .login-container {
+    margin: 0;
+    padding: 0;
+    background: url('D:\Frontend\fathima\src\assets\photo_2025-03-28_04-19-28.jpg') no-repeat center center/cover;
+    font-family: 'Times New Roman', Times, serif; /* Ensure consistency */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: rgba(240, 241, 239, 0.9);
+    padding: 30px;
+    border-radius: 45px;
+    box-shadow: 0 4px 10px rgba(12, 12, 12, 0.2);
+    width: 100%;
+    max-width: 450px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Header */
+  .login-header h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Paragraph */
+  .login-paragraph p {
+    color: #555;
+    font-weight: normal;
+  }
+  
+  /* Links */
+  .login-a a {
+    color: #376ba3;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .login-a a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Labels */
+  .login-label .form-label {
+    font-weight: bold;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Button */
+  .login-button.btn-success {
+    background: linear-gradient(135deg, #41ca61, #79b88a);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .login-button.btn-success:hover {
+    background: linear-gradient(135deg, #36a851, #79b88a);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+  }
+  
+  .login-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  

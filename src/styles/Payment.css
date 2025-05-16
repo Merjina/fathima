@@ -1,0 +1,126 @@
+/* Main container for payment page */
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+  padding: 30px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Title for the page */
+.payment-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Payment form */
+.payment-form {
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 14px;
+}
+
+/* Payment form paragraph */
+.payment-form p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555;
+}
+
+/* Label styling */
+.payment-form label {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Input and select fields styling */
+.payment-form input,
+.payment-form select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+/* Input focus styling */
+.payment-form input:focus,
+.payment-form select:focus {
+  outline: none;
+  border-color: #0077cc;
+  background-color: #fff;
+}
+
+/* Button styling */
+.payment-form button {
+  padding: 10px 15px;
+  background-color: #0077cc;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+/* Button hover effect */
+.payment-form button:hover {
+  background-color: #005fa3;
+}
+
+/* Payment Mode select dropdown */
+.payment-form select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .payment-container {
+    padding: 20px;
+  }
+
+  .payment-form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .payment-container h2 {
+    font-size: 24px;
+  }
+
+  .payment-form label,
+  .payment-form p {
+    font-size: 14px;
+  }
+
+  .payment-form input,
+  .payment-form select {
+    font-size: 13px;
+  }
+
+  .payment-form button {
+    font-size: 14px;
+  }
+}
+

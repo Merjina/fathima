@@ -1,0 +1,68 @@
+/* General Styling */
+.notification-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+   
+  }
+  
+  h2 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Notification Details */
+  .notification-details {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .notification-details p {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+  }
+  
+  .notification-details strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .notification-details .amount {
+    font-size: 18px;
+    color: #1e7e34; /* Green for successful payment */
+  }
+  
+  .notification-details .status {
+    font-size: 16px;
+    color: #d9534f; /* Red for failed or inactive status */
+  }
+  
+  .notification-details .loading-message {
+    font-style: italic;
+    color: #999;
+  }
+  
+  /* Additional responsive design */
+  @media (max-width: 768px) {
+    .notification-container {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .notification-details p {
+      font-size: 14px;
+    }
+  }
+  

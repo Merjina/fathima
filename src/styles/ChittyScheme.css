@@ -1,0 +1,123 @@
+/* Container Styling */
+.chitty-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Styling */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Form Field Styling */
+input,
+textarea,
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #0077cc;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  background-color: #0077cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #555;
+}
+
+td {
+  background-color: #fafafa;
+}
+
+/* Action Button Styling in Table */
+button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Edit Button */
+button.edit-btn {
+  background-color: #ffc107;
+}
+
+button.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+/* Delete Button */
+button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.delete-btn:hover {
+  background-color: #bb2d3b;
+}
+
+/* Table Row Hover Effect */
+tr:hover {
+  background-color: #f1f1f1;
+}

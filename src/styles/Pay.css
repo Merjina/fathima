@@ -1,0 +1,92 @@
+/* Main container for Chitty schemes */
+.chitty-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  /* Title styling */
+  .chitty-container h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Scheme list container */
+  .scheme-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual scheme card styling */
+  .scheme-card {
+    background-color: #fff;
+    width: 280px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .scheme-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Scheme card title styling */
+  .scheme-card h4 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Scheme amount styling */
+  .scheme-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Payment button styling */
+  .pay-btn {
+    background-color: #0077cc;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pay-btn:hover {
+    background-color: #005fa3;
+  }
+  
+  .pay-btn:active {
+    background-color: #003e7b;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .scheme-card {
+      width: 250px;
+      padding: 15px;
+    }
+  
+    .chitty-container h3 {
+      font-size: 24px;
+    }
+  
+    .pay-btn {
+      padding: 10px 15px;
+    }
+  }
+  

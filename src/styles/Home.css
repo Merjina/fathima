@@ -1,0 +1,39 @@
+/* Card Hover Effect */
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Hero Styling */
+  .hero-section {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("D:\Frontend\fathima\src\assets\front-view-hand-adding-coins-stack-covered-dirt-plants.jpg") center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-content p {
+    font-size: 1.3rem;
+  }
+  
+  /* Optional: CTA styling */
+  .cta-section {
+    background: linear-gradient(to right, #28a745, #20c997);
+    color: white;
+  }
+  

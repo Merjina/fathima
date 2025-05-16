@@ -1,0 +1,109 @@
+/* General Navbar Styling */
+.signup-navbar {
+    background-color: #0f0f0e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Logo (ChittyPro on Left, Bold) */
+.signup-navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e9edf1;
+    margin-left: 10px;
+}
+
+/* Navbar Links */
+.signup-navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-navbar-links li {
+    display: inline;
+}
+
+.signup-navbar-links a {
+    text-decoration: none;
+    color: #f3eeee;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: color 0.3s ease-in-out;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.signup-navbar-links a:hover {
+    color: #ed3e08;
+}
+
+/* Login and Sign Up Buttons */
+/* .navbar-btn {
+    font-size: 16px;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+} */
+
+.login-btnn {
+    background-color: #007bff; /* Blue background for login */
+    color: white;
+}
+
+
+.signup-btnn {
+    background-color: #007bff; /* Blue background for sign up */
+    color: white;
+}
+
+.signup-btn:hover {
+    background-color: #218838;
+}
+
+/* Logout Button */
+.signup-navbar-links li:last-child a {
+    
+    color: rgb(243, 239, 239);
+    padding: 8px 15px;
+    /* border-radius: 5px; */
+    font-weight: bold;
+}
+
+.signup-navbar-links li:last-child a:hover {
+    /* background-color: #c82333; */
+    color: red;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .signup-navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .signup-navbar-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .signup-navbar-links a {
+        display: block;
+        text-align: center;
+    }
+}
